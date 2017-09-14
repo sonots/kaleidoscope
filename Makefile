@@ -5,7 +5,7 @@ INCLUDE = $(shell llvm-config --cxxflags)
 all : $(TARGET)
 
 $(TARGET) : toy.cpp
-	clang++ -g -O3 $(INCLUDE) -std=c++11 -o $(TARGET) toy.cpp $(LIBS)
+	clang++ -g toy.cpp $(INCLUDE) $(LIBS) -O3 -o $(TARGET)
 
 run :
 	./$(TARGET)
