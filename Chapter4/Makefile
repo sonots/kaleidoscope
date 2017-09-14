@@ -1,5 +1,5 @@
 TARGET = toy
-LIBS = $(shell llvm-config --ldflags --system-libs --libs core mcjit native)
+LIBS = $(shell llvm-config --ldflags --system-libs --libs core)
 INCLUDE = $(shell llvm-config --cxxflags)
 
 all : $(TARGET)
