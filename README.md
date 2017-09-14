@@ -2,7 +2,7 @@ Kaleidoscope: Implementing a Language with LLVM
 
 ## Prerequisites:
 
-LLVM 5.0
+LLVM 3.9.0
 
 ## How to build
 
